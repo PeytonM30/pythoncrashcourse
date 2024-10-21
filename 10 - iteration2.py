@@ -16,7 +16,7 @@ my_nums = [1, 10, -5, 4, 18, 26, 102, -505]
 
 # Putting it all together, we have a crazy nested function: range(len(my_nums))
 # essentially meaning, we are getting a range from the length of the list my_nums
-
+del my_nums
 # this is the way we iterate if we also need the indices of the elements of the list:
 for i in range(len(my_nums)):
     # generally when we iterate by index, we use "i" as the variable.

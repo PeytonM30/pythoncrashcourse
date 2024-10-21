@@ -13,7 +13,7 @@ Another way we can add comments is by using triple apostrophes above and below a
 # print() writes out whatever is within the parenthesis to the output stream.
 # Try pressing the Run button (looks like a play button in the upper right of VSCode)
 
-print("Hello World")
+print("Bye World)
 
 # you should see "Hello World" in the output.
 

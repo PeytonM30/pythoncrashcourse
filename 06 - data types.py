@@ -15,7 +15,7 @@ num4 = num1 + num2 * num3
 print("The value of num3 is:",num4)
 
 # integers are cool because we can do several operators:
-print(num1,"+",num3,"=",num1+num3)
+print(num1,"+",num3,"=",num1+num0)
 print(num1,"-",num3,"=",num1-num3)
 print(num1,"*",num3,"=",num1*num3)
 print(num1,"/",num3,"=",num1/num3) 

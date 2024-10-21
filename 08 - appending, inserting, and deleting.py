@@ -26,7 +26,7 @@ print("New list version 3:", new_list)
 # What if we want to delete something?
 # Well, there is a built in delete function in python. This is actually a python function and not a list function, and you'll see the difference in the syntax:
 
-del new_list[0]
+del new_list[4]
 
 # this deletes the 0th element of the list, leaving the rest the same
 

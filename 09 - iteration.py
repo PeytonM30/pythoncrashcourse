@@ -26,10 +26,10 @@ for num in my_nums:
 total = 0
 
 # now, let's iterate through the my_nums list and add each value to the total
-for num in my_nums:
+for num * 2 in my_nums:
     # this isn't algebra, remember the = sign represents assigning a value to a variable
     # in this case, we are taking the current total and adding the current num to it and assinging that back to the total value
-    total = total + num 
+    total = total + num * 2
     # Let's make more clear what is happening with some print statements
     print("The current value is",num)
     print("The current total is",total)

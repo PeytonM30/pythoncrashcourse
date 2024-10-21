@@ -30,7 +30,7 @@ print("My list:", my_list)
 
 # to call index 3 of my_list, use brackets in front of the name of the list
 
-print("Index 3 of my_list is:",my_list[3])
+print("Index 3 of my_list is:",my_list[8])
 
 # What happens if we try to go negative with the index?
 # Try printing my_list[-1]
