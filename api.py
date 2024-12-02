@@ -15,7 +15,7 @@ class Pokemon:
         output_string += str(self.number) + "\n"
         output_string += self.name.capitalize() + "\n"
         output_string += f"Height: {self.height/10}m, Weight: {self.weight/10}kg" + "\n"
-        output_string += "Types: " + ", ".join(self.types) + "\n"
+        output_string += "Types: " + ", ".join([x.capitalize() for x in self.types]) + "\n"
         output_string += f"HP: {self.stats[0]}, ATK {self.stats[1]}, DEF {self.stats[2]}, SPA {self.stats[3]}, SPD {self.stats[4]}, SPE {self.stats[5]}\n"
         return output_string
 
