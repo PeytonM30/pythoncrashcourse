@@ -19,12 +19,12 @@ class Pokemon:
         output_string += f"HP: {self.stats[0]}, ATK {self.stats[1]}, DEF {self.stats[2]}, SPA {self.stats[3]}, SPD {self.stats[4]}, SPE {self.stats[5]}\n"
         return output_string
 
-r = requests.get("https://pokeapi.co/api/v2/pokemon?limit=151")
+r = requests.get("https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0")
 
 data = r.json()
 results = data["results"]
 
-for result in results[:10]:
+for result in results[:1400]:
     r = requests.get(result["url"])
     data = r.json()
 
